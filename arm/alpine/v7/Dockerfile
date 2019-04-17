@@ -16,4 +16,6 @@ RUN echo "user1:docker" | chpasswd
 WORKDIR /home/user1
 USER user1
 
+CMD ["uname", "-a"]
+
 
