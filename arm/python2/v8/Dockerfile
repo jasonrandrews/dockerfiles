@@ -1,4 +1,4 @@
-FROM jasonrandrews/armv8-python2
+FROM python:2
 
 COPY qemu-aarch64-static /usr/bin
 

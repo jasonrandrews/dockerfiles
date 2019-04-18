@@ -1,4 +1,4 @@
-FROM arm32v7/rust
+FROM rust
 
 COPY qemu-arm-static /usr/bin
 

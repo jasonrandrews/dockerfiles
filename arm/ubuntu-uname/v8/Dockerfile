@@ -1,4 +1,4 @@
-FROM arm64v8/ubuntu
+FROM ubuntu
 
 COPY qemu-aarch64-static /usr/bin
 

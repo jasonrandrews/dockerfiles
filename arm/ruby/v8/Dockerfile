@@ -1,4 +1,4 @@
-FROM arm64v8/ruby
+FROM ruby
 
 COPY qemu-aarch64-static /usr/bin
 

@@ -1,4 +1,4 @@
-FROM arm32v7/ubuntu
+FROM ubuntu
 
 COPY qemu-arm-static /usr/bin
 

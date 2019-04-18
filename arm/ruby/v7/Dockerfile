@@ -1,4 +1,4 @@
-FROM arm32v7/ruby
+FROM ruby
 
 COPY qemu-arm-static /usr/bin
 

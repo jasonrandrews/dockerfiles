@@ -1,4 +1,4 @@
-FROM jasonrandrews/armv7-python3
+FROM python:3
 
 COPY qemu-arm-static /usr/bin
 

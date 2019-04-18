@@ -1,4 +1,4 @@
-FROM arm64v8/alpine
+FROM alpine
 
 COPY qemu-aarch64-static /usr/bin
 

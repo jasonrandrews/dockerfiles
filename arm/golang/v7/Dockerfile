@@ -1,4 +1,4 @@
-FROM arm32v7/golang:alpine
+FROM golang:alpine
 
 COPY qemu-arm-static /usr/bin
 

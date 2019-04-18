@@ -1,4 +1,4 @@
-FROM arm64v8/rust
+FROM rust
 
 COPY qemu-aarch64-static /usr/bin
 
