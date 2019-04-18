@@ -1,6 +1,6 @@
 cp ../../../qemu/qemu-aarch64-static  .
 
-docker pull --platform linux/arm64 ruby
+docker pull --platform linux/arm64 ruby:alpine
 
 docker build -t ruby-v8 -f Dockerfile .
 

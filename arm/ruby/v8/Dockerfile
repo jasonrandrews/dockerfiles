@@ -1,4 +1,4 @@
-FROM ruby
+FROM ruby:alpine
 
 COPY qemu-aarch64-static /usr/bin
 

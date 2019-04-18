@@ -5,7 +5,7 @@ docker pull --platform linux/arm64 ubuntu
 
 docker build -t ubuntu-v8 -f Dockerfile .
 
-docker run ubuntu-v8 /home/user1/hello
+docker run --rm ubuntu-v8 /home/user1/hello
 
 rm hello.go
 rm qemu-aarch64-static

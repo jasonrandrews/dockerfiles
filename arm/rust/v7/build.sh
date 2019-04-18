@@ -1,6 +1,6 @@
 cp ../../../qemu/qemu-arm-static  .
 
-docker pull --platform linux/arm rust 
+docker pull --platform linux/arm rust:slim
 
 docker build -t rust-v7 -f Dockerfile .
 

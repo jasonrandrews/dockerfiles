@@ -1,6 +1,6 @@
 cp ../../../qemu/qemu-arm-static  .
 
-docker pull --platform linux/arm ruby
+docker pull --platform linux/arm ruby:alpine
 
 docker build -t ruby-v7 -f Dockerfile .
 
